@@ -1,77 +1,22 @@
 body {
-    color: #222;
-    background: #fff;
-    font: 100% system-ui;
-  }
-  a {
-    color: #0033cc;
-  }
-  
-  @media (prefers-color-scheme: dark) {
-    body {
-      color: #eee;
-      background: #121212;
-    }
-  
-    body a {
-      color: #809fff;
-    }
-  }
-  
-  h1 {text-align: center;}
-  h3 {text-align: center;}
+  color: aliceblue;
+  background: #1d1f23;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .footer {
   text-align: center;
+  color: #7c7c7c;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  translate: -50% -50%;
+  width: 100%;
 }
 
-h1 {text-align: center;}
-h3 {text-align: center;}
-
-
-body { width: 100%; margin: 0; padding: 0; overflow: hidden; }
-
-#wrapper_1 { clear: left; float: left; position: relative; left: 50%; }
-
-#container_1 { display: block; float: left; position: relative; right: 50%; }
-  
-  .bn632-hover {
-    width: 160px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
-    margin: 20px;
-    height: 55px;
-    text-align:center;
-    border: none;
-    background-size: 300% 100%;
-    border-radius: 50px;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-  }
-  
-  .bn632-hover:hover {
-    background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-  }
-  
-  .bn632-hover:focus {
-    outline: none;
-  }
-  
-  .bn632-hover.bn18 {
-    background-image: linear-gradient(
-      to right,
-      #25aae1,
-      #40e495,
-      #30dd8a,
-      #2bb673
-    );
-    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
-  }
+.footer a{
+  text-decoration: none;
+  text-align: center;
+  color: #7c7c7c;
+}
